@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Custom Form</title>
+    <link rel="stylesheet" href="mycustomform.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>My Custom Form</h2>
+      <form action="#" method="POST">
+        <label for="videoTitle">Video Title</label>
+        <input
+          type="text"
+          id="videoTitle"
+          name="videoTitle"
+          placeholder="Video Title"
+        />
+
+        <label for="emailAddress">Email Address</label>
+        <input
+          type="email"
+          id="emailAddress"
+          name="emailAddress"
+          placeholder="yourname@example.com"
+        />
+
+        <label for="favoriteFormat">Pick Your Favorite</label>
+        <select id="favoriteFormat" name="favoriteFormat">
+          <option value="mp4">MP4</option>
+          <option value="mp3">MP3</option>
+          <option value="mp2">MP2</option>
+        </select>
+
+        <label for="aboutYourself">Tell Us About Yourself</label>
+        <textarea
+          id="aboutYourself"
+          name="aboutYourself"
+          rows="3"
+          placeholder="Tell us about yourself..."
+        ></textarea>
+
+        <label for="uploadDate">Pick Upload Date</label>
+        <input type="date" id="uploadDate" name="uploadDate" />
+
+        <label for="uploadFile">Pick Upload File</label>
+        <input type="file" id="uploadFile" name="uploadFile" />
+      </form>
+      <button type="submit">
+        <a href="done.html">submit</a>
+      </button>
+    </div>
+  </body>
+</html>
